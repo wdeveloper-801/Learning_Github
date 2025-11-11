@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 to check how many commits are there in a repo
-=======
-to check how many commits are there in a repo
->>>>>>> 33d00bdddf2c6f1a65b6ac7319728a3f733db756
 git log --oneline
