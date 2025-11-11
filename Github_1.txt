@@ -1,0 +1,2 @@
+to check how many commits are there in a repo
+git log --oneline
