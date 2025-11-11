@@ -1,2 +1,18 @@
-to check how many commits are there in a repo
+To check how many commits are there in a repo
 git log --oneline
+
+
+To delete old commits
+git reset --hard HEAD~1
+
+
+To delete a branch
+git branch -d branch_name
+
+
+To delete a remote branch
+git push origin --delete branch_name
+
+
+To delete a local branch
+git branch -d branch_name
