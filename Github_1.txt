@@ -6,13 +6,24 @@ To delete old commits
 git reset --hard HEAD~1
 
 
-To delete a branch
-git branch -d branch_name
+To check how many undefine files . 
+git status -s show those files not commited and after commited file have any changes.
+git status -s 
 
 
-To delete a remote branch
-git push origin --delete branch_name
+
+Coming to branches
+To create a new branch
+git branch branch_name
 
 
-To delete a local branch
-git branch -d branch_name
+
+To check how many branches are there
+git branch -a
+
+
+To check which branch is active
+git branch
+
+To switch to a branch
+git checkout branch_name
